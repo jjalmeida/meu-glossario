@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Glossário</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="theme-color" content="#1565C0">
+    <!-- Pré-carrega a fonte com suporte a japonês (CJK) para reduzir o flash
+         de "tofu" enquanto o Compose carrega a fonte no primeiro uso. -->
+    <link rel="preload" as="fetch" type="font/otf" crossorigin
+          href="composeResources/com.meuglossario.resources/font/noto_sans_jp_regular.otf">
+    <style>
+        html, body { margin: 0; padding: 0; height: 100%; }
+        #warning { font-family: sans-serif; padding: 16px; }
+    </style>
+    <!-- Google Identity Services (para backup no Drive na web) -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="driveBridge.js" defer></script>
+</head>
+<body>
+    <div id="warning">
+        Carregando Meu Glossário... Se esta mensagem persistir, use um navegador
+        com suporte a WebAssembly GC (Chrome/Edge/Firefox recentes).
+    </div>
+    <script type="application/javascript" src="composeApp.js"></script>
+</body>
+</html>

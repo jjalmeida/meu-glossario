@@ -1,0 +1,2 @@
+# SPA: qualquer rota desconhecida cai no index.html (a navegação é client-side).
+/*    /index.html    200

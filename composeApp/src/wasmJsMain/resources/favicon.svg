@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <rect width="108" height="108" rx="24" fill="#1565C0"/>
+  <!-- Página esquerda -->
+  <path d="M54 42 C48 38 40 37 33 38 L33 70 C40 69 48 70 54 74 Z" fill="#FFFFFF"/>
+  <!-- Página direita -->
+  <path d="M54 42 C60 38 68 37 75 38 L75 70 C68 69 60 70 54 74 Z" fill="#FFFFFF"/>
+  <!-- Vinco central -->
+  <rect x="52.5" y="42" width="3" height="32" fill="#1565C0"/>
+  <!-- Linhas de texto -->
+  <g fill="#1565C0">
+    <rect x="37" y="46" width="13" height="2.4"/>
+    <rect x="37" y="51" width="13" height="2.4"/>
+    <rect x="37" y="56" width="13" height="2.4"/>
+    <rect x="37" y="61" width="9" height="2.4"/>
+    <rect x="58" y="46" width="13" height="2.4"/>
+    <rect x="58" y="51" width="13" height="2.4"/>
+    <rect x="58" y="56" width="13" height="2.4"/>
+    <rect x="58" y="61" width="9" height="2.4"/>
+  </g>
+  <!-- Marcador de página -->
+  <path d="M64 38 h7 v16 l-3.5 -3.5 l-3.5 3.5 Z" fill="#E53935"/>
+</svg>

@@ -1,0 +1,39 @@
+# Build
+build/
+*/build/
+build_old/
+*/build_old/
+**/build_old/
+*.hprof
+.gradle/
+.kotlin/
+
+# Kotlin/JS e Node
+node_modules/
+kotlin-js-store/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+local.properties
+
+# macOS / SO
+.DS_Store
+Thumbs.db
+
+# Signing / secrets - NUNCA versionar
+keystore/
+*.jks
+*.keystore
+keystore.properties
+client_secret*.json
+*.p12
+*.pem
+*.env
+.env
+.env.*
+
+# Web tooling / Cloudflare
+.wrangler/
+wrangler-account.json

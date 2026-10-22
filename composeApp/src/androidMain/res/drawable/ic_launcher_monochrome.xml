@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Versão monocromática (ícone temático do Android 13+): apenas silhueta. -->
+
+    <!-- Contorno do livro aberto -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,42 C48,38 40,37 33,38 L33,70 C40,69 48,70 54,74 C60,70 68,69 75,70 L75,38 C68,37 60,38 54,42 Z M54,46 C60,43 66,42 71,42.5 L71,66 C66,65.6 60,66.4 54,69 C48,66.4 42,65.6 37,66 L37,42.5 C42,42 48,43 54,46 Z" />
+
+    <!-- Linhas de texto -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M40,50 h10 v2.2 h-10 Z M40,55 h10 v2.2 h-10 Z M40,60 h7 v2.2 h-7 Z M58,50 h10 v2.2 h-10 Z M58,55 h10 v2.2 h-10 Z M58,60 h7 v2.2 h-7 Z" />
+</vector>

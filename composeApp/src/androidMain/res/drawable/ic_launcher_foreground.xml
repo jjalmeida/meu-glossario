@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Livro aberto (glossário) desenhado dentro da safe zone (centro ~36..72). -->
+
+    <!-- Página esquerda -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 C48,38 40,37 33,38 L33,70 C40,69 48,70 54,74 Z" />
+    <!-- Página direita -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 C60,38 68,37 75,38 L75,70 C68,69 60,70 54,74 Z" />
+
+    <!-- Vinco central do livro -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M52.5,42 h3 v32 h-3 Z" />
+
+    <!-- Linhas de texto (página esquerda) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M37,46 h13 v2.4 h-13 Z M37,51 h13 v2.4 h-13 Z M37,56 h13 v2.4 h-13 Z M37,61 h9 v2.4 h-9 Z" />
+    <!-- Linhas de texto (página direita) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M58,46 h13 v2.4 h-13 Z M58,51 h13 v2.4 h-13 Z M58,56 h13 v2.4 h-13 Z M58,61 h9 v2.4 h-9 Z" />
+
+    <!-- Marcador de página (fita vermelha) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M64,38 h7 v16 l-3.5,-3.5 l-3.5,3.5 Z" />
+</vector>

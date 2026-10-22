@@ -1,0 +1,14 @@
+# Configuração do Cloudflare Pages para deploy via CLI (wrangler).
+# Uso:
+#   1) npm install -g wrangler
+#   2) ./gradlew :composeApp:wasmJsBrowserDistribution
+#   3) wrangler pages deploy composeApp/build/dist/wasmJs/productionExecutable
+#
+# O nome do projeto no Cloudflare Pages:
+name = "meu-glossario"
+
+# Diretório de arquivos estáticos publicados (a distribuição de produção do Wasm).
+pages_build_output_dir = "composeApp/build/dist/wasmJs/productionExecutable"
+
+# Data de compatibilidade do runtime do Pages (apenas metadados; site é estático).
+compatibility_date = "2025-01-01"

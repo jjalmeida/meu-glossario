@@ -1,0 +1,25 @@
+# Cloudflare Pages headers
+# Referência: https://developers.cloudflare.com/pages/configuration/headers/
+
+# WebAssembly precisa do MIME correto senão o navegador recusa o módulo.
+/*.wasm
+  Content-Type: application/wasm
+
+# Cabeçalhos de segurança básicos para toda a aplicação.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+# Artefatos com hash/estáveis podem ser cacheados agressivamente.
+/*.wasm
+  Cache-Control: public, max-age=31536000, immutable
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/*.otf
+  Content-Type: font/otf
+  Cache-Control: public, max-age=31536000, immutable
+
+# O HTML não deve ser cacheado, para sempre pegar a versão nova.
+/index.html
+  Cache-Control: no-cache
